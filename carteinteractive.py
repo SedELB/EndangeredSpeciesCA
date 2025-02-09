@@ -7,32 +7,6 @@ import contextily as ctx
 import pandas as pd
 
 dfanimaux = pd.read_csv('animals.csv', encoding='ISO-8859-1', skiprows=2)
-dfanimaux = dfanimaux.drop(dfanimaux.columns[[4,5,6,7,9,10]], axis='columns')
-dfanimaux = dfanimaux.dropna()
-
-from pygbif import species
-from pygbif import occurrences
-import geopandas as gpd
-from shapely.geometry import Point
-import matplotlib.pyplot as plt
-import contextily as ctx
-import pandas as pd
-
-# Charger les données des animaux
-dfanimaux = pd.read_csv('animals.csv', encoding='ISO-8859-1', skiprows=2)
-dfanimaux = dfanimaux.drop(dfanimaux.columns[[4, 5, 6, 7, 9, 10]], axis='columns')
-dfanimaux = dfanimaux.dropna()
-
-from pygbif import species
-from pygbif import occurrences
-import geopandas as gpd
-from shapely.geometry import Point
-import matplotlib.pyplot as plt
-import contextily as ctx
-import pandas as pd
-
-# Charger les données des animaux
-dfanimaux = pd.read_csv('animals.csv', encoding='ISO-8859-1', skiprows=2)
 dfanimaux = dfanimaux.drop(dfanimaux.columns[[4, 5, 6, 7, 9, 10]], axis='columns')
 dfanimaux = dfanimaux.dropna()
 
