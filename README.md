@@ -1,3 +1,3 @@
 # SaveThePandas
 
-By Rayenskill, SaadThe Goat, MoMoTheBoss
+For the PolyHacks 2024 Hackathon at Polytechnique Montréal
